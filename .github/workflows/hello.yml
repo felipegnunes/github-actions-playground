@@ -8,5 +8,10 @@ jobs:
     steps:
       - name: Say hello
         run: echo "Hello World!"
+      - name: Multiline shell commands
+        run: |
+          echo "First command"
+          echo "Second command"
       - name: Say goodbye
         run: echo "Goodbye!"
+      
