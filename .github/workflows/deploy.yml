@@ -1,4 +1,4 @@
-name: Test React app
+name: Deploy app
 on: push
 jobs:
   test:
