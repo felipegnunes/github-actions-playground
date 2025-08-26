@@ -1,7 +1,7 @@
-name: Test React app
+name: Just test the React app
 on: push
 jobs:
-  test:
+  just_test:
     runs-on: ubuntu-latest
     steps:
       - name: Get code from repo
